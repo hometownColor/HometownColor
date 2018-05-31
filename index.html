@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>故乡的颜色</title>
+  <style>
+#wrap{
+position: relative;
+height: 250px;
+width: 400px;
+margin: 0 auto;
+}
+#wrap div{
+position: absolute;
+width: 16px;
+height: 16px;
+background-color: white;
+cursor: pointer;
+}
+
+.blackDiv{
+border: 1px solid #000;
+}
+.redDiv{
+	border: 1px solid red;
+}
+
+</style> 
+  <link rel="stylesheet" href="./css/bootstrap.min.css" /> 
+  <link rel="stylesheet" href="./css/spectrum.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <script src="./js/jquery.min.js"></script> 
+  <script src="./js/bootstrap.min.js"></script> 
+  
+  <script src="./js/index.js"></script> 
+  <script src="./js/nebPay.js"></script> 
+  <script src="./js/spectrum.js"></script>
+
+    <script src="./asset/echarts.min.js"></script>
+    <script src="./asset/china.js"></script>
+ </head> 
+ <body> 
+  <div class="container"> 
+
+     <div class="jumbotron"> 
+      <h1> 故乡的颜色 </h1> 
+      <p> 有的人认为，自己的故乡是红色的，因为那里有红色的土地；有的人认为，自己的故乡是绿色的，因为那里有碧水青山；还有人认为，自己的故乡是金黄色的，因为那里有成片的油菜花。。。 
+	  <br><br>对于故乡，每个人都有自己心中的主色调</p> 
+     </div> 
+     <dl> 
+      <dd>
+	  每个人都可以分享自己心中故乡的主色调。
+         <br>本APP对大家的分享进行统计，并采用特殊算法，将颜色进行混合，得到一个最终的颜色。
+
+
+        
+		
+      </dd> 
+     </dl> 
+     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation"> 
+      <div class="navbar-header"> 
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> 
+       <a class="navbar-brand" href="https://nebulas.io/" target="_blank">NEBULAS</a> 
+      </div> 
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+       <ul class="nav navbar-nav"> 
+        <li class="active"> <a href="#">主页</a> </li> 
+        <li> <a href="#about">关于我们</a> </li> 
+       </ul> 
+
+      </div> 
+	  
+	 
+
+		
+     </nav> 
+     <div class="panel panel-default" style="border-left: 0px; border-right:0px"> 
+      
+           <div id="container" style="height: 800px; width: 1200px; margin: 20px 0px 0px; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; position: relative; background: white;" _echarts_instance_="ec_1527512144579"><div style="position: relative; overflow: hidden; width: 1200px; height: 800px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;"><canvas data-zr-dom-id="zr_0" width="1200" height="800" style="position: absolute; left: 0px; top: 0px; width: 1200px; height: 800px; -webkit-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div style="position: absolute; display: none; border: 0px solid rgb(51, 51, 51); white-space: nowrap; z-index: 9999999; transition: left 0.4s cubic-bezier(0.23, 1, 0.32, 1), top 0.4s cubic-bezier(0.23, 1, 0.32, 1); border-radius: 4px; color: rgb(255, 255, 255); font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 14px; font-family: &#39;Microsoft YaHei&#39;; line-height: 21px; padding: 5px; left: 601px; top: 314px; background-color: rgb(255, 127, 80);"><p style="font-size:18px">吉林</p><p style="font-size:14px">这里可以写一些，想展示在页面上的别的信息</p></div></div>     
+
+<div id="displayarea">
+
+            <!-- <font size="6">河南</font>&nbsp;&nbsp;
+			<label>我心中的颜色</label>
+            <input type="text" id="cellColor" style="width:80px"/> 
+			<button type="submit" class="btn btn-default" id="savebutton">保存</button> -->
+
+</div>
+
+		   
+       </div> 
+<br>
+<div>
+       <h3 id="about"> 关于我们 </h3> 
+       <dl> 
+        <dt>
+          感谢使用此故乡的颜色APP。 
+        </dt> 
+        <dd>
+          该APP开发并运行于星云链上，代码公开。
+		  <br>合约地址：n1uepEYBWrzfS1ZGABxhDKBginmDyTuuva7
+        </dd> 
+		<br>
+        <dt>
+          运行该APP需要注意的事项： 
+        </dt> 
+        <dd>
+          需要使用谷歌浏览器，并安装星云钱包插件。
+
+        </dd> 
+        <dd>
+          安装教程，请参考
+        </dd> 
+		<dd>
+		https://github.com/ChengOrangeJu/WebExtensionWallet
+		</dd>
+        <br>
+		<dt>
+          如果你在使用此APP过程中，遇到任何问题，请联系
+		  </dt> 
+		  <dd>xinan23@outlook.com</dd>
+        
+
+       </dl> 
+
+</div>
+<nav class="navbar navbar-default navbar-static-bottom" role="navigation">
+<div class="col-md-12" style="text-align: center;background:white">
+                    <p>Copyright © 2018.
+					<br>
+                        <a href="https://incentive.nebulas.io/signup.html?invite=iRGAj" target="_blank">点我发布DAPP获取100NAS</a>
+                    </p>
+                    
+                </div>
+				
+			</nav>     
+
+ 
+   </div>
+  </div>
+  <script>
+  
+
+
+  </script>
+ </body>
+</html>
